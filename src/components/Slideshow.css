@@ -1,0 +1,41 @@
+    .carousel{
+        position: fixed;
+        background-color:white;
+        z-index: 1;
+    }
+
+
+    .carousel-item {
+        background-color:#1d1e22;
+        margin-top: 40px;
+    }
+
+    .carousel-img {
+        height: auto;
+        max-width: 100%;
+        border-radius: 20%;
+        padding: 50px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        text-align: center;
+        width: 50%;
+        top: 40%;
+    }
+
+    .carousel-caption p {
+        color: rgb(209, 202, 202);
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 550px) {
+        /* .carousel-img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .carousel-caption p {
+            font-size: 20px;
+        } */
+    }
